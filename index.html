@@ -12,7 +12,7 @@
     <title>Spinnaker Labs</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
@@ -28,7 +28,27 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <style>
+    @media (min-width: 768px) {
+        .img-responsive {
+            position: absolute;
+            top: -50px;
+            height: 323px;
+            width: 100%;
+        }
+    }
+    @media (max-width: 767px) {
+        .img-responsive{
+            margin: auto;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+        .img-responsive {
+            padding-top: 15%;
+            max-height: 323px;
+        }
+    }
+    </style>
 </head>
 
 <body>
@@ -98,7 +118,7 @@
                     <p class="lead">Turn your concepts into full-fledged product road-maps. We'll work hand-in-hand with you to understand your vision and turn in into reality.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive right" src="img/design.jpg" alt="">
                 </div>
             </div>
 
@@ -113,14 +133,14 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6 text-right">
+                    <hr class="section-heading-spacer" style="float:right">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Development</h2>
                     <p class="lead">Our iterative process of development allows you to be as involved as you'd like. Think of us as your in-house dev team.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive left" src="img/development.jpg" alt="">
                 </div>
             </div>
 
@@ -141,8 +161,8 @@
                     <h2 class="section-heading">Engineering</h2>
                     <p class="lead">Our expertise across many disciplines allows us to help you with products from the web to electronics, and even manufacturing.</p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6 add-pad">
+                    <img class="img-responsive right" src="img/engineering.jpg" alt="">
                 </div>
             </div>
 
