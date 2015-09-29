@@ -1,3 +1,5 @@
+/*Font Work*/
+
 h1 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
@@ -27,4 +29,44 @@ h3 {
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+/*Image Work*/
+@media (min-width: 768px) {
+    .img-responsive {
+        position: absolute;
+        top: -50px;
+        height: 323px;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .img-responsive{
+        margin: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .img-responsive {
+        padding-top: 15%;
+        max-height: 323px;
+    }
+}
+
+/*Navbar Move and Restyle*/
+.intro-header {
+    padding-top: 0;
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #00436e;
+}
+.topnav {
+    font-size: 17px;
+    text-transform: uppercase;
 }
