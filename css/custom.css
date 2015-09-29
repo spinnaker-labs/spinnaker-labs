@@ -1,0 +1,30 @@
+h1 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+h3 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.bolder {
+  font-weight: 400;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.8);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
