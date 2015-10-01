@@ -70,3 +70,8 @@ h3 {
     font-size: 17px;
     text-transform: uppercase;
 }
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
